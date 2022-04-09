@@ -9,3 +9,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* The above is a CSS HTML5 reset from https://meyerweb.com/eric/tools/css/reset/. It is used to reset the values of HTML5 to be able to have full control over the CSS development of the pages*/
 
+h2{
+    font-size: 100px;
+}
