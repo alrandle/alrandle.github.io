@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.banner {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(76, 86, 86);
+    
+}
+.banner h1{
+    border: 2px solid red;
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+.body {
+    border: 2px solid orange;
+    display:flex;
+}
+.links {
+    border: 2px solid blue;
+    width: 35%;
+}
+.info {
+    border: 2px solid green;
+    width: 65%;
+}
