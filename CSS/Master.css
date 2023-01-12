@@ -1,29 +1,80 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-repeat: no-repeat;
+    background-size: 1500px;
 }
 .banner {
     display:flex;
-    justify-content: space-between;
-    background-color: rgb(76, 86, 86);
-    
+    justify-content:center;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
-.banner h1{
-    border: 2px solid red;
-    color: white;
-    font-family: cursive;
-    font-weight: 600;
-    font-size: 40px;
+.banner button{
+    background-color: white;
+    border: transparent;
+    margin-left: 5px;
+    color:gray;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 10px;
 }
 .body {
     border: 2px solid orange;
     display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(94, 209, 238, 0.8);
+    border-radius: 20px;
+    width: fit-content;
+    padding-bottom: 5px;
 }
-.links {
-    border: 2px solid blue;
-    width: 35%;
+.title{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: cursive;
+    color: white;
 }
-.info {
-    border: 2px solid green;
-    width: 65%;
+.socials {
+    width: 25%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 80px;
+    text-decoration: none;
+    border: transparent;
+    border-radius: 100%;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+.fa-facebook-square {
+    background: #3b5998;
+    color: white;
+}
+.information{
+    border: transparent;
+    background-color: white;
+    border-radius: 10px;
+    color: grey;
+    font-weight: 600;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.information i{
+    padding: 0;
 }
