@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 1550px;
 }
 .banner {
     display:flex;
@@ -10,7 +10,7 @@ body{
     margin-top: 35px;
     margin-bottom: 20px;
 }
-.banner button{
+#button{
     background-color: white;
     border: transparent;
     margin-left: 5px;
