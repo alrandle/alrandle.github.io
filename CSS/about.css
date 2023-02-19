@@ -2,3 +2,24 @@ body {
     margin: 0px;
     padding: 0px;
 }
+.container {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-around;
+}
+.verticals {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+}
+#left {
+    width: 25%;
+}
+#right {
+    width: 65%;
+}
+#pic {
+    height: 10%;
+    border: 2px solid green;
+    border-radius: 15px;
+}
