@@ -9,6 +9,8 @@ body {
 }
 .verticals {
     border: 2px solid blue;
+}
+.verticals h1{
     display: flex;
     justify-content: center;
 }
@@ -19,7 +21,10 @@ body {
     width: 65%;
 }
 #pic {
-    height: 10%;
+    height: 300px;
     border: 2px solid green;
     border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

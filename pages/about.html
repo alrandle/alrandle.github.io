@@ -11,11 +11,23 @@
     <div class="container">
         <div class="verticals" id="left">
             <img src="../pictures/ST_Randle, Alex-3166.jpg" id="pic">
+            <h1 id="age"></h1>
         </div>
         <div class="verticals" id="right">
             <h1>hello</h1>
         </div>
     </div>
 </body>
+<script>
+    function age(){
+        let birthday = new Date(2001, 2, 14).getTime()
+        let difference = new Date().getTime() - birthday
+        console.log(difference)
+        let calculateAge = Math.floor(difference / 31449600000)
 
+        document.getElementById("age").innerHTML = `Age: ${calculateAge}`
+
+    }
+    age()
+</script>
 </html>
